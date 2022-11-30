@@ -54,7 +54,7 @@ def generate_comment():
 
 # FIXME:
 # connect to reddit 
-reddit = praw.Reddit('bot', user_agent='cs40')
+reddit = praw.Reddit('bot5', user_agent='cs40')
 
 # FIXME:
 # select a "home" submission in the /r/cs40_2022fall subreddit to post to,
@@ -111,7 +111,7 @@ while True:
     # and an if statement to check whether the comment is authored by you or not
     not_my_comments = []
     for comment in all_comments:
-        if comment.author != 'kpbot24':
+        if comment.author != 'kpbot5':
             not_my_comments.append(comment)
 
     # HINT:
@@ -153,7 +153,7 @@ while True:
         for comment in not_my_comments:
             has_not_replied = True
             for reply in comment.replies:
-                if reply.author == 'kpbot24':
+                if reply.author == 'kpbot5':
                     has_not_replied = False
                     break
             if has_not_replied:
