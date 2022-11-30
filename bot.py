@@ -2,6 +2,7 @@ import praw
 import random
 import datetime
 import time
+import markovify
 
 # FIXME:
 # copy your generate_comment function from the madlibs assignment here
@@ -46,11 +47,21 @@ replacements = {
     'VITAL' : ['vital', 'crucial', 'key']
     }
 
+with open("obama.txt") as f:
+    text = f.read()
+text_model = markovify.Text(text)
+
 def generate_comment():
-    madlib = random.choice(madlibs)
-    for replacement in replacements.keys():
-        madlib = madlib.replace('['+replacement+']', random.choice(replacements[replacement]))
-    return madlib
+    ret = ''
+    for i in range(4):
+        ret += str(text_model.make_sentence()) + ' '
+    return ret
+    
+# def generate_comment():
+#     madlib = random.choice(madlibs)
+#     for replacement in replacements.keys():
+#         madlib = madlib.replace('['+replacement+']', random.choice(replacements[replacement]))
+#     return madlib
 
 # FIXME:
 # connect to reddit 
