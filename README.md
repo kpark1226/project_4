@@ -2,7 +2,7 @@
 
 
 Below is a photo of the results of running `bot_counter.py` on my `bot.py`. The number of valid comments came out to be 838.
-![Picture of main bot](bot1.png)
+![Picture of main bot](bot1.jpg)
 
 Below are screenshots of my 4 other bots that reached 500+ valid comments
 ![Picture of second bot](kpbot2.png)
