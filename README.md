@@ -3,6 +3,17 @@
 
 Below is a photo of the results of running `bot_counter.py` on my `bot.py`. The number of valid comments came out to be 838.
 ![Picture of main bot](bot1.jpg)
+```
+len(comments)= 1000
+len(top_level_comments)= 182
+len(replies)= 818
+len(valid_top_level_comments)= 140
+len(not_self_replies)= 806
+len(valid_replies)= 698
+========================================
+valid_comments= 838
+========================================
+```
 
 Below are screenshots of my 4 other bots that reached 500+ valid comments:
 
