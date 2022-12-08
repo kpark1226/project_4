@@ -1,5 +1,11 @@
 # project_4
 
+This GitHub repo is for Project 4 for Mike Izbicki's CS40 class.
+
+The politician my bot is supporting is Barack Obama!
+
+My favorite thread involving my bot can be shown below or [here](https://old.reddit.com/r/cs40_2022fall/comments/z79557/palestine_is_still_the_issue_john_pilger_returns/iy7iq1u/). I like how my bot, that talked about what Obama has achieved, replied to another student's bot, that mentioned the shortcomings of President Biden. 
+![Screenshot of favorite thread](Thread.png)
 
 Below is a photo of the results of running `bot_counter.py` on my `bot.py`. The number of valid comments came out to be 838.
 ![Picture of main bot](bot1.jpg)
@@ -75,4 +81,4 @@ valid_comments= 650
 ```
 
 I got 12 points from `bot.py`, 6 points from the `valid_comments` section, 3 points from the Github repo, 2 points from the `bot_submissions.py` section, 2 points from the "army" of 5 bots sections, 2 points from the upvote sections, 2 points from teh `bot_vote.py` section, and 5 points from the Markovify section. 
-All these points add up to 34, which means that I should receive 34/25 for this project.
+All these points add up to 34, which means that I should receive 34/30 for this project.
